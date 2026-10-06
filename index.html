@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>遊技店マップ</title>
+
+    <!-- Leaflet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
+    <!-- 自分のCSS -->
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+<header>
+    <h1>スマスロ未導入店舗マップ（2026/10/06時点）
+    </h1>
+
+    <p>
+        全国のスマスロ未導入店舗情報を表示しています。
+    </p>
+</header>
+
+
+<main>
+
+    <section class="map-section">
+
+        <div id="map"></div>
+
+    </section>
+
+
+    <section class="list-section">
+
+        <h2>店舗一覧</h2>
+
+        <input
+            id="search"
+            type="text"
+            placeholder="店舗名・住所で検索"
+        >
+
+        <div id="store-count"></div>
+
+        <div id="store-list"></div>
+
+    </section>
+
+</main>
+
+
+<!-- Leaflet -->
+<script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js">
+</script>
+
+<!-- 自分のJavaScript -->
+<script src="app.js"></script>
+
+</body>
+
+</html>
