@@ -745,7 +745,9 @@
     "lat": 35.37008796,
     "lng": 136.889172,
     "status": "active",
-    "tags": [],
+    "tags": [
+      "低貸専門"
+    ],
     "smart_slot_introduced": false,
     "pworld_url": "https://www.p-world.co.jp/aichi/marion-aigi.htm",
     "dmm_url": "https://p-town.dmm.com/shops/aichi/6161"
@@ -1191,5 +1193,20 @@
     "smart_slot_introduced": false,
     "pworld_url": "https://www.p-world.co.jp/kagoshima/yoron123.htm",
     "dmm_url": null
+  }
+  {
+    "store_id": "S101",
+    "name": "BONDもみじ台",
+    "address": "北海道札幌市厚別区もみじ台北7丁目1番2号 もみじ台ショッピングセンタ-1F",
+    "pref_code": "1.0",
+    "lat": 43.0312111360909,
+    "lng": 141.492522960631,
+    "status": "active",
+    "tags": [
+      "低貸専門"
+    ],
+    "smart_slot_introduced": false,
+    "pworld_url": null,
+    "dmm_url": "https://p-town.dmm.com/shops/hokkaido/12511"
   }
 ]
